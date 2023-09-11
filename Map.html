@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type="text/css" href="Map.css">
+    <title>Карта</title>
+</head>
+<body>
+<div id='ground'>
+        <div id='snowLand'></div>
+        <div id='forest'></div><div id='forest4'></div><div id='forest3'></div><div id='forest2'></div><div id='forest5'></div>
+        <div id='forest6'></div> 
+        <div id='chest1' class='chest'></div><div id='chest2' class='chest'></div><div id='chest3' class='chest'></div>
+        <div id='forest7'></div><div id='forest8'></div><div id='forest9'></div><div id='forest10'></div>
+        <div id='forest11'></div><div id='forest12'></div><div id='forest13'></div><div id='forest14'></div><div id='forest15'></div>
+        <div id='tower'></div>
+        <div id='lesopilka'></div><div id='lesopilka2'></div><div id='shachta'></div><div id='shachta2'></div>
+        <div id="towerCastle"><img src='image/Map/TowerCastleShadow.png' id='TowerCastleShadow' class="towerCastleClass">
+                <img src='image/Map/TowerCastle.png' class="towerCastleClass" width="173px"></div>
+        <div id='zamok'></div>
+        <div id="gnoli"></div>
+        
+        <!-- <div id="gnoliWar"></div><div id="pickmanWar"></div><div id="gnoliGo"></div><div id="pickmanGo"></div> -->
+        <div id='zoloto1' class='zoloto'></div><div id='zoloto2' class='zoloto'></div><div id='zoloto3' class='zoloto'></div>
+        
+        <div id="hero" style="left: 320px; top: 280px; position: relative;"></div>
+        
+        
+        
+        
+        
+</div>
+
+        <div id='putnik'>
+            <div id='metka' style="left: 999px; top: 999px;"></div>
+        </div>
+    <div id='battle'>
+        <img src='image/Battle/BlackBackGround.png' id="battleFieldBackGround"></<img> 
+        <img src='image/Battle/BattleField.png' id="battleField">
+        <div id="allcells">
+            <div id="cell"></div>
+        </div>
+        <div id="pickmanBattle" style="left: 280px; top: 160px;" class='active'><img src="image/Battle/Count.png" id="pickmanlivestable"><div id='pidkmanlives'>10</div></div>
+        
+        <div id="gnoliBattle" style="left: 920px; top: 480px;" class='active'><img src="image/Battle/Count.png" id="gnollivestable"><div id='gnollives'>10</div></div>
+        <div id="zatemnenie"></div>
+        <div id='battleEnd'></div>
+        <div id='okButtonEndBattle'></div>
+    </div>
+<script src="Map.js"></script>
+</body>
+</html>

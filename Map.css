@@ -1,0 +1,472 @@
+body{    background: url('./image/Map/Space.png')}
+#ground{width: 820px; height: 800px; background: url('./image/Map/Ground.png'); position: absolute; margin: 120px;
+        border: 27px solid #000; border-image-source: url('./image/Map/Ramka.png'); border-image-slice: 27 27 27 27;}
+#snowLand{top: 250px; left: 250px; position: absolute; width: 570px; height: 550px; background: url('./image/Map/SnowLand.png') no-repeat;}
+#zamok{position: absolute; top: 0px; left: 97px; width: 158px; height: 150px; background: url('./image/Map/Zamok.png') no-repeat;}
+.towerCastleClass{position: absolute; top: 315px; left: 659px; width: 163px; height: 194px;}
+#TowerCastleShadow{top: 300px; left: 605px; transform: skewX(34deg) scaleY(0.7); filter: opacity(0.5);}
+
+
+
+#forest{top: 0px; left: 340px; position: absolute;  width: 207px; height: 133px; background: url('./image/Map/Forest.png') no-repeat;}
+#forest2{top: 160px; left: 230px; position: absolute;  width: 171px; height: 156px; background: url('./image/Map/Forest2.png') no-repeat; filter: drop-shadow(-5px -5px 0px rgba(0,0,0, 0.5))}
+#forest3{top: 230px; left: 40px; position: absolute;  width: 234px; height: 155px; background: url('./image/Map/Forest3.png') no-repeat; filter: drop-shadow(-5px -5px 0px rgba(0,0,0, 0.5))}
+#forest4{top: 240px; left: 210px; position: absolute;  width: 235px; height: 131px; background: url('./image/Map/Forest4.png') no-repeat;}
+#forest5{top: 0px; left: 240px; position: absolute;  width: 171px; height: 156px; background: url('./image/Map/Gora3.png') no-repeat;}
+#forest6{top: 0px; left: 0px; position: absolute;  width: 171px; height: 156px; background: url('./image/Map/Gora2.png') no-repeat;}
+#forest7{top: 146px; left: 340px; position: absolute;  width: 234px; height: 155px; background: url('./image/Map/Forest3.png') no-repeat; filter: drop-shadow(-5px -5px 0px rgba(0,0,0, 0.5))}
+#forest8{top: 400px; left: 460px; position: absolute;  width: 270px; height: 373px; background: url('./image/Map/Gora4.png') no-repeat; filter: drop-shadow(-5px -5px 0px rgba(0,0,0, 0.5));}
+
+#forest9{top: 190px; left: 440px; position: absolute;  width: 308px; height: 312px; background: url('./image/Map/Forest5.png') no-repeat; filter: drop-shadow(-5px -5px 0px rgba(0,0,0, 0.5))}
+#forest10{top: 400px; left: 220px; position: absolute;  width: 243px; height: 400px; background: url('./image/Map/Forest6.png') no-repeat; filter: drop-shadow(-5px -5px 0px rgba(0,0,0, 0.5))}
+
+
+#forest11{top: 330px; left: 120px; position: absolute;  width: 189px; height: 119px; background: url('./image/Map/Gora3.png') no-repeat; filter: drop-shadow(-5px -5px 0px rgba(0,0,0, 0.5))}
+#forest12{top: 400px; left: 80px; position: absolute;  width: 163px; height: 132px; background: url('./image/Map/Gora1.png') no-repeat; filter: drop-shadow(-5px -5px 0px rgba(0,0,0, 0.5))}
+#forest13{top: 480px; left: 50px; position: absolute;  width: 163px; height: 132px; background: url('./image/Map/Gora2.png') no-repeat; filter: drop-shadow(-5px -5px 0px rgba(0,0,0, 0.5))}
+
+
+
+#forest14{top: 0px; left: 0px; position: absolute;  width: 428px; height: 130px; background: url('./image/Map/Gora5.png') no-repeat;}
+#forest15{top: 0px; left: 400px; position: absolute;  width: 134px; height: 227px; background: url('./image/Map/Gora6.png') no-repeat;}
+
+
+
+
+
+
+#lesopilka{top: 5px; left: 525px; position: absolute;  width: 136px; height: 68px; background: url('./image/Map/Lesopilka.png') no-repeat; filter: drop-shadow(-15px -2px 0px rgba(0,0,0, 0.5))}
+#lesopilka2{top: 290px; left: 40px; position: absolute;  width: 136px; height: 68px; background: url('./image/Map/Lesopilka.png') no-repeat; filter: drop-shadow(-15px -2px 0px rgba(0,0,0, 0.5))}
+#shachta{top: 210px; left: 350px; position: absolute;  width: 102px; height: 65px; background: url('./image/Map/Shachta.png') no-repeat;}
+#shachta2{top: 530px; left: 630px; position: absolute;  width: 102px; height: 65px; background: url('./image/Map/Shachta.png') no-repeat;}
+#tower{top: 510px; left: 130px; position: absolute;  width: 64px; height: 81px; background: url('./image/Map/Tower.png') no-repeat;}
+
+#hero{animation-name: stopright;  animation-duration: 0.5s; animation-iteration-count: infinite; filter: drop-shadow(-5px -5px 0px rgba(0,0,0, 0.5));
+    animation-direction: linear; position: relative; width: 65px; height: 65px;  margin-top: -190px; margin-left: -170px}
+
+#metka{position: absolute; width: 40px; height: 40px;  display: none; background: url('./image/Map/Metka.png') no-repeat;
+     /* background-size: 40px; */
+    /* background: url('./image/Map/Metka.png') no-repeat; background-size: 200%; */
+}
+
+.zoloto{position: absolute; width: 32px; height: 23px;  display: block; animation: zoloto 3s infinite linear; filter: drop-shadow(-4px -1px 0px rgba(0,0,0, 0.5))}
+#zoloto1{left: 360px; top: 130px;}
+#zoloto2{left: 400px; top: 130px;}
+#zoloto3{left: 680px; top: 720px;}
+.chest{position: absolute; width: 34px; height: 32px;  display: block; animation: chest 3s infinite linear; filter: drop-shadow(-3px -3px 0px rgba(0,0,0, 0.5))}
+#chest1{left: 360px; top: 163px;}
+#chest2{left: 400px; top: 163px;}
+#chest3{left: 520px; top: 480px;}
+
+#gnoli{left: 320px; top: 100px; position: absolute; width: 32px; height: 50px;  display: block; animation: gnoliMap 6s infinite linear; filter: drop-shadow(-4px -1px 0px rgba(0,0,0, 0.5))}
+#gnoliWar{left: 920px; top: 100px; position: absolute; width: 90px; height: 100px;  display: block; animation: gnoliKickLeft 1s infinite linear; filter: drop-shadow(-4px -1px 0px rgba(0,0,0, 0.5))}
+#pickmanWar{left: 820px; top: 100px; position: absolute; width: 130px; height: 92px;  display: block; animation: pickmanKickRight 1s infinite linear; filter: drop-shadow(-4px -1px 0px rgba(0,0,0, 0.5))}
+#gnoliGo{left: 720px; top: 100px; position: absolute; width: 60px; height: 75px;  display: block; animation: gnoliGoLeft 0.8s infinite linear; filter: drop-shadow(-4px -1px 0px rgba(0,0,0, 0.5))}
+#pickmanGo{left: 620px; top: 100px; position: absolute; width: 60px; height: 100px;  display: block; animation: pickmanGoRight 0.8s infinite linear; filter: drop-shadow(-4px -1px 0px rgba(0,0,0, 0.5))}
+
+#battle{position: absolute;}
+#battleField{position: absolute; margin: auto 220px;}
+#battleFieldBackGround{position: absolute; width: 1400px; height: 1100px; background-color: black; margin: -10px;}
+
+
+
+#pickmanBattle{margin: -65px 3px; position: absolute; width: 48px; height: 100px;  display: block; animation: pickmanStandRightActive 1s infinite linear; filter: drop-shadow(-4px -1px 0px rgba(0,0,0, 0.5))}
+#pickmanlivestable{left: 45px; top: 88px; position: absolute; width: 30px; height: 11px;  display: block;}
+#pidkmanlives{left: 55px; top: 88px; position: absolute; width: 30px; height: 11px;  display: block; color: #fff; font-size: 10px;}
+
+
+#gnoliBattle{margin: -40px -9px; left: 920px; top: 100px; position: absolute; width: 47px; height: 78px;  display: block; animation: gnoliStandLeft 1s infinite linear; filter: drop-shadow(-4px -1px 0px rgba(0,0,0, 0.5))}
+#gnollivestable{left: -35px; top: 63px; position: absolute; width: 30px; height: 11px;  display: block;}
+#gnollives{left: -25px; top: 63px; position: absolute; width: 30px; height: 11px;  display: block; color: #fff; font-size: 10px;}
+
+
+#cell{left: 400px; top: 120px; position: absolute; width: 43px; height: 51px; display: block; background-image: url('./image/Battle/Cell.png');}
+
+#battleEnd{position: absolute; width: 470px; height: 560px; display: none; margin: auto 400px;}
+#video1{display: block; position: absolute; width: 470px; height: 560px; display: none; margin: 0px;}
+#video2{display: none; position: absolute; width: 470px; height: 560px; display: none; margin: 0px;}
+#video3{display: none; position: absolute; width: 470px; height: 560px; display: none; margin: 0px;}
+#zatemnenie{width: 1200px; height: 1000px; display: none; position: absolute}
+#okButtonEndBattle{width: 67px; height: 32px; position: absolute; left: 786px; top: 504px; background: url('./image/Battle/OkButtonBattleEnd.png') no-repeat; filter: opacity(0); display: none;}
+@keyframes zatemnenie{
+    from {background-color: black; filter: opacity(0);}
+    to   {background-color: black; filter: opacity(0.5);}
+}
+@keyframes gnoliStandLeft{
+    from {background: url('./image/Battle/Gnol/StandLeft.png') no-repeat;}
+    to {background: url('./image/Battle/Gnol/StandLeft.png') no-repeat;}
+}
+
+@keyframes gnoliStandRight{
+    from {background: url('./image/Battle/Gnol/StandRight.png') no-repeat;}
+    to {background: url('./image/Battle/Gnol/StandRight.png') no-repeat;}
+}
+
+@keyframes gnolRip{
+    from {background: url('./image/Battle/Gnol/Kill/4.png') no-repeat;}
+    to {background: url('./image/Battle/Gnol/Kill/4.png') no-repeat;}
+}
+
+
+@keyframes gnoliGoRight{
+    0% {background: url('./image/Battle/Gnol/Go/Right/1.png') no-repeat;}
+    15% {background: url('./image/Battle/Gnol/Go/Right/2.png') no-repeat;}
+    30% {background: url('./image/Battle/Gnol/Go/Right/3.png') no-repeat;}
+    45% {background: url('./image/Battle/Gnol/Go/Right/4.png') no-repeat;}
+    60% {background: url('./image/Battle/Gnol/Go/Right/5.png') no-repeat;}
+    75% {background: url('./image/Battle/Gnol/Go/Right/6.png') no-repeat;}
+    90% {background: url('./image/Battle/Gnol/Go/Right/7.png') no-repeat;}
+    100% {background: url('./image/Battle/Gnol/Go/Right/1.png') no-repeat;}
+  
+}
+@keyframes gnoliGoLeft{
+    0% {background: url('./image/Battle/Gnol/Go/Left/1.png') no-repeat;}
+    15% {background: url('./image/Battle/Gnol/Go/Left/2.png') no-repeat;}
+    30% {background: url('./image/Battle/Gnol/Go/Left/3.png') no-repeat;}
+    45% {background: url('./image/Battle/Gnol/Go/Left/4.png') no-repeat;}
+    60% {background: url('./image/Battle/Gnol/Go/Left/5.png') no-repeat;}
+    75% {background: url('./image/Battle/Gnol/Go/Left/6.png') no-repeat;}
+    90% {background: url('./image/Battle/Gnol/Go/Left/7.png') no-repeat;}
+    100% {background: url('./image/Battle/Gnol/Go/Left/1.png') no-repeat;}
+  
+}
+
+@keyframes gnoliKickRight{
+    0% {background: url('./image/Battle/Gnol/Kick/Right/1.png') no-repeat;}
+    15% {background: url('./image/Battle/Gnol/Kick/Right/2.png') no-repeat;}
+    30% {background: url('./image/Battle/Gnol/Kick/Right/3.png') no-repeat;}
+    45% {background: url('./image/Battle/Gnol/Kick/Right/4.png') no-repeat;}
+    60% {background: url('./image/Battle/Gnol/Kick/Right/5.png') no-repeat;}
+    75% {background: url('./image/Battle/Gnol/Kick/Right/6.png') no-repeat;}
+    90% {background: url('./image/Battle/Gnol/Kick/Right/7.png') no-repeat;}
+    100% {background: url('./image/Battle/Gnol/Kick/Right/1.png') no-repeat;}
+}
+
+@keyframes gnoliKickLeft{
+    0% {background: url('./image/Battle/Gnol/Kick/Left/1.png') no-repeat;}
+    15% {background: url('./image/Battle/Gnol/Kick/Left/2.png') no-repeat;}
+    30% {background: url('./image/Battle/Gnol/Kick/Left/3.png') no-repeat;}
+    45% {background: url('./image/Battle/Gnol/Kick/Left/4.png') no-repeat;}
+    60% {background: url('./image/Battle/Gnol/Kick/Left/5.png') no-repeat;}
+    75% {background: url('./image/Battle/Gnol/Kick/Left/6.png') no-repeat;}
+    90% {background: url('./image/Battle/Gnol/Kick/Left/7.png') no-repeat;}
+    100% {background: url('./image/Battle/Gnol/Kick/Left/1.png') no-repeat;}
+}
+
+@keyframes gnoliPainRight{
+    0% {background: url('./image/Battle/Gnol/Pain/Right/1.png') no-repeat;}
+    20% {background: url('./image/Battle/Gnol/Pain/Right/2.png') no-repeat;}
+    40% {background: url('./image/Battle/Gnol/Pain/Right/3.png') no-repeat;}
+    60% {background: url('./image/Battle/Gnol/Pain/Right/4.png') no-repeat;}
+    80% {background: url('./image/Battle/Gnol/Pain/Right/5.png') no-repeat;}
+    100% {background: url('./image/Battle/Gnol/Pain/Right/1.png') no-repeat;}
+    
+}
+
+@keyframes gnoliPainLeft{
+    0% {background: url('./image/Battle/Gnol/Pain/Left/1.png') no-repeat;}
+    20% {background: url('./image/Battle/Gnol/Pain/Left/2.png') no-repeat;}
+    40% {background: url('./image/Battle/Gnol/Pain/Left/3.png') no-repeat;}
+    60% {background: url('./image/Battle/Gnol/Pain/Left/4.png') no-repeat;}
+    80% {background: url('./image/Battle/Gnol/Pain/Left/5.png') no-repeat;}
+    100% {background: url('./image/Battle/Gnol/Pain/Left/1.png') no-repeat;}
+}
+
+@keyframes gnoliKill{
+    0% {background: url('./image/Battle/Gnol/Kill/1.png') no-repeat;}
+    33% {background: url('./image/Battle/Gnol/Kill/2.png') no-repeat;}
+    66% {background: url('./image/Battle/Gnol/Kill/3.png') no-repeat;}
+    100% {background: url('./image/Battle/Gnol/Kill/4.png') no-repeat;}
+}
+
+
+@keyframes pickmanStandRight{ 0%{background: url('./image/Battle/Pickman/StandRight.png') no-repeat;}100% {background: url('./image/Battle/Pickman/StandRight.png') no-repeat;}}
+@keyframes pickmanStandLeft{ 0%{background: url('./image/Battle/Pickman/StandLeft.png') no-repeat;}100% {background: url('./image/Battle/Pickman/StandLeft.png') no-repeat;}}
+
+
+@keyframes pickmanStandRightActive{
+    0% {background: url('./image/Battle/Pickman/StandRight.png') no-repeat;
+        filter: drop-shadow(0px 0px 0px rgba(255,255, 0.1))}
+    50% {background: url('./image/Battle/Pickman/StandRight.png') no-repeat;
+        filter: drop-shadow(0px 0px 5px rgba(255,255, 1));}
+    100% {background: url('./image/Battle/Pickman/StandRight.png') no-repeat;
+        filter: drop-shadow(0px 0px 0px rgba(255,255, 0.1))}
+}
+
+@keyframes pickmanStandLeftActive{
+    0% {background: url('./image/Battle/Pickman/StandLeft.png') no-repeat;
+        filter: drop-shadow(0px 0px 0px rgba(255,255, 0.1))}
+    50% {background: url('./image/Battle/Pickman/StandLeft.png') no-repeat;
+        filter: drop-shadow(0px 0px 5px rgba(255,255, 1));}
+    100% {background: url('./image/Battle/Pickman/StandLeft.png') no-repeat;
+        filter: drop-shadow(0px 0px 0px rgba(255,255, 0.1))}
+}
+
+
+@keyframes pickmanGoRight{
+    0% {background: url('./image/Battle/Pickman/Go/Right/1.png') no-repeat;}
+    15% {background: url('./image/Battle/Pickman/Go/Right/2.png') no-repeat;}
+    30% {background: url('./image/Battle/Pickman/Go/Right/3.png') no-repeat;}
+    45% {background: url('./image/Battle/Pickman/Go/Right/4.png') no-repeat;}
+    60% {background: url('./image/Battle/Pickman/Go/Right/5.png') no-repeat;}
+    80% {background: url('./image/Battle/Pickman/Go/Right/6.png') no-repeat;}
+    100% {background: url('./image/Battle/Pickman/Go/Right/1.png') no-repeat;}
+}
+
+@keyframes pickmanGoLeft{
+    0% {background: url('./image/Battle/Pickman/Go/Left/1.png') no-repeat;}
+    15% {background: url('./image/Battle/Pickman/Go/Left/2.png') no-repeat;}
+    30% {background: url('./image/Battle/Pickman/Go/Left/3.png') no-repeat;}
+    45% {background: url('./image/Battle/Pickman/Go/Left/4.png') no-repeat;}
+    60% {background: url('./image/Battle/Pickman/Go/Left/5.png') no-repeat;}
+    80% {background: url('./image/Battle/Pickman/Go/Left/6.png') no-repeat;}
+    100% {background: url('./image/Battle/Pickman/Go/Left/1.png') no-repeat;}
+}
+
+@keyframes pickmanKickRight{
+    0% {background: url('./image/Battle/Pickman/Kick/Right/1.png') no-repeat;}
+    10% {background: url('./image/Battle/Pickman/Kick/Right/2.png') no-repeat;}
+    20% {background: url('./image/Battle/Pickman/Kick/Right/3.png') no-repeat;}
+    30% {background: url('./image/Battle/Pickman/Kick/Right/4.png') no-repeat;}
+    40% {background: url('./image/Battle/Pickman/Kick/Right/5.png') no-repeat;}
+    50% {background: url('./image/Battle/Pickman/Kick/Right/6.png') no-repeat;}
+    60% {background: url('./image/Battle/Pickman/Kick/Right/7.png') no-repeat;}
+    70% {background: url('./image/Battle/Pickman/Kick/Right/8.png') no-repeat;}
+    80% {background: url('./image/Battle/Pickman/Kick/Right/9.png') no-repeat;}
+    90% {background: url('./image/Battle/Pickman/Kick/Right/1.png') no-repeat;}
+    100%{background: url('./image/Battle/Pickman/Kick/Right/1.png') no-repeat;}
+}
+
+@keyframes pickmanKickLeft{
+    0% {background: url('./image/Battle/Pickman/Kick/Left/1.png') no-repeat;}
+    10% {background: url('./image/Battle/Pickman/Kick/Left/2.png') no-repeat;}
+    20% {background: url('./image/Battle/Pickman/Kick/Left/3.png') no-repeat;}
+    30% {background: url('./image/Battle/Pickman/Kick/Left/4.png') no-repeat;}
+    40% {background: url('./image/Battle/Pickman/Kick/Left/5.png') no-repeat;}
+    50% {background: url('./image/Battle/Pickman/Kick/Left/6.png') no-repeat;}
+    60% {background: url('./image/Battle/Pickman/Kick/Left/7.png') no-repeat;}
+    70% {background: url('./image/Battle/Pickman/Kick/Left/8.png') no-repeat;}
+    80% {background: url('./image/Battle/Pickman/Kick/Left/9.png') no-repeat;}
+    90% {background: url('./image/Battle/Pickman/Kick/Left/1.png') no-repeat;}
+    100%{background: url('./image/Battle/Pickman/Kick/Left/1.png') no-repeat;}
+}
+@keyframes pickmanPainRight{
+    0% {background: url('./image/Battle/Pickman/Pain/Right/1.png') no-repeat;}
+    20% {background: url('./image/Battle/Pickman/Pain/Right/2.png') no-repeat;}
+    40% {background: url('./image/Battle/Pickman/Pain/Right/3.png') no-repeat;}
+    60% {background: url('./image/Battle/Pickman/Pain/Right/4.png') no-repeat;}
+    80% {background: url('./image/Battle/Pickman/Pain/Right/5.png') no-repeat;}
+    100% {background: url('./image/Battle/Pickman/Pain/Right/5.png') no-repeat;}
+
+    
+}
+@keyframes pickmanPainLeft{
+    0% {background: url('./image/Battle/Pickman/Pain/Left/1.png') no-repeat;}
+    20% {background: url('./image/Battle/Pickman/Pain/Left/2.png') no-repeat;}
+    40% {background: url('./image/Battle/Pickman/Pain/Left/3.png') no-repeat;}
+    60% {background: url('./image/Battle/Pickman/Pain/Left/4.png') no-repeat;}
+    80% {background: url('./image/Battle/Pickman/Pain/Left/5.png') no-repeat;}
+    100% {background: url('./image/Battle/Pickman/Pain/Left/5.png') no-repeat;}
+    
+}
+@keyframes pickmanKill{
+    0% {background: url('./image/Battle/Pickman/Kill/1.png') no-repeat;}
+    33% {background: url('./image/Battle/Pickman/Kill/2.png') no-repeat;}
+    66% {background: url('./image/Battle/Pickman/Kill/3.png') no-repeat;}
+    100% {background: url('./image/Battle/Pickman/Kill/4.png') no-repeat;}
+}
+
+@keyframes pickmanRip{
+   from {background: url('./image/Battle/Pickman/Kill/4.png') no-repeat;}
+   to   {background: url('./image/Battle/Pickman/Kill/4.png') no-repeat;}
+}
+
+
+
+@keyframes zoloto{
+    0% {background: url('./image/Map/Resources/Gold/11.png') no-repeat;}
+    10% {background: url('./image/Map/Resources/Gold/13.png') no-repeat;}
+    20% {background: url('./image/Map/Resources/Gold/12.png') no-repeat;}
+    30% {background: url('./image/Map/Resources/Gold/14.png') no-repeat;}
+    40% {background: url('./image/Map/Resources/Gold/13.png') no-repeat;}
+    50% {background: url('./image/Map/Resources/Gold/11.png') no-repeat;}
+    60% {background: url('./image/Map/Resources/Gold/12.png') no-repeat;}
+    70% {background: url('./image/Map/Resources/Gold/14.png') no-repeat;}
+    80% {background: url('./image/Map/Resources/Gold/11.png') no-repeat;}
+    90% {background: url('./image/Map/Resources/Gold/13.png') no-repeat;}
+    100% {background: url('./image/Map/Resources/Gold/11.png') no-repeat;}
+}
+
+@keyframes chest{
+    0% {background: url('./image/Map/Resources/Chest/11.png') no-repeat;}
+    10% {background: url('./image/Map/Resources/Chest/12.png') no-repeat;}
+    20% {background: url('./image/Map/Resources/Chest/13.png') no-repeat;}
+    30% {background: url('./image/Map/Resources/Chest/11.png') no-repeat;}
+    40% {background: url('./image/Map/Resources/Chest/12.png') no-repeat;}
+    50% {background: url('./image/Map/Resources/Chest/13.png') no-repeat;}
+    60% {background: url('./image/Map/Resources/Chest/12.png') no-repeat;}
+    70% {background: url('./image/Map/Resources/Chest/11.png') no-repeat;}
+    100% {background: url('./image/Map/Resources/Chest/11.png') no-repeat;}
+}
+
+@keyframes gnoliMap{
+    0% {background: url('./image/Monstri/GnoliMap/11.png') no-repeat;}
+    3% {background: url('./image/Monstri/GnoliMap/12.png') no-repeat;}
+    6% {background: url('./image/Monstri/GnoliMap/13.png') no-repeat;}
+    9% {background: url('./image/Monstri/GnoliMap/14.png') no-repeat;}
+    12% {background: url('./image/Monstri/GnoliMap/13.png') no-repeat;}
+    15% {background: url('./image/Monstri/GnoliMap/14.png') no-repeat;}
+    18% {background: url('./image/Monstri/GnoliMap/13.png') no-repeat;}
+    21% {background: url('./image/Monstri/GnoliMap/12.png') no-repeat;}
+    24% {background: url('./image/Monstri/GnoliMap/11.png') no-repeat;}
+    100% {background: url('./image/Monstri/GnoliMap/11.png') no-repeat;}
+}
+
+@keyframes stopright{
+   0% {background: url('./image/Map/RunRight/Stand.png') no-repeat;}
+   100% {background: url('./image/Map/RunRight/Stand.png') no-repeat;}
+}
+@keyframes stopupright{
+    0% {background: url('./image/Map/RunUpRight/Stand.png') no-repeat;}
+    100% {background: url('./image/Map/RunUpRight/Stand.png') no-repeat;}
+ }
+ @keyframes stopdownright{
+    0% {background: url('./image/Map/RunDownRight/Stand.png') no-repeat;}
+    100% {background: url('./image/Map/RunDownRight/Stand.png') no-repeat;}
+ }
+ @keyframes stopup{
+    0% {background: url('./image/Map/RunUp/Stand.png') no-repeat;}
+    100% {background: url('./image/Map/RunUp/Stand.png') no-repeat;}
+ }
+ @keyframes stopdown{
+    0% {background: url('./image/Map/RunDown/Stand.png') no-repeat;}
+    100% {background: url('./image/Map/RunDown/Stand.png') no-repeat;}
+ }
+ @keyframes stopupleft{
+    0% {background: url('./image/Map/RunUpLeft/Stand.png') no-repeat;}
+    100% {background: url('./image/Map/RunUpLeft/Stand.png') no-repeat;}
+ }
+ @keyframes stopdownleft{
+    0% {background: url('./image/Map/RunDownLeft/Stand.png') no-repeat;}
+    100% {background: url('./image/Map/RunDownLeft/Stand.png') no-repeat;}
+ }
+ @keyframes stopleft{
+    0% {background: url('./image/Map/RunLeft/Stand.png') no-repeat;}
+    100% {background: url('./image/Map/RunLeft/Stand.png') no-repeat;}
+ }
+@keyframes  moveright {
+   
+    0%{background: url('./image/Map/RunRight/11.png') no-repeat}
+    15%{background: url('./image/Map/RunRight/12.png') no-repeat}
+    30% {background: url('./image/Map/RunRight/13.png') no-repeat}
+    45% {background: url('./image/Map/RunRight/14.png') no-repeat}
+    60% {background: url('./image/Map/RunRight/15.png') no-repeat}
+    75% {background: url('./image/Map/RunRight/16.png') no-repeat}
+    88% {background: url('./image/Map/RunRight/17.png') no-repeat} 
+    100%{background: url('./image/Map/RunRight/11.png') no-repeat}
+}
+
+@keyframes moveleft {
+    0%{background: url('./image/Map/RunLeft/11.png') no-repeat}
+    15%{background: url('./image/Map/RunLeft/12.png') no-repeat}
+    30% {background: url('./image/Map/RunLeft/13.png') no-repeat}
+    45% {background: url('./image/Map/RunLeft/14.png') no-repeat}
+    60% {background: url('./image/Map/RunLeft/15.png') no-repeat}
+    75% {background: url('./image/Map/RunLeft/16.png') no-repeat}
+    88% {background: url('./image/Map/RunLeft/17.png') no-repeat} 
+    100%{background: url('./image/Map/RunLeft/11.png') no-repeat}
+}
+
+@keyframes moveupleft {
+    0%{background: url('./image/Map/RunUpLeft/11.png') no-repeat}
+    20%{background: url('./image/Map/RunUpLeft/12.png') no-repeat}
+    40% {background: url('./image/Map/RunUpLeft/13.png') no-repeat}
+    60% {background: url('./image/Map/RunUpLeft/14.png') no-repeat}
+    80% {background: url('./image/Map/RunUpLeft/15.png') no-repeat}
+    100% {background: url('./image/Map/RunUpLeft/11.png') no-repeat}
+}
+
+@keyframes moveupright {
+    0%{background: url('./image/Map/RunUpRight/11.png') no-repeat}
+    20%{background: url('./image/Map/RunUpRight/12.png') no-repeat}
+    40% {background: url('./image/Map/RunUpRight/13.png') no-repeat}
+    60% {background: url('./image/Map/RunUpRight/14.png') no-repeat}
+    80% {background: url('./image/Map/RunUpRight/15.png') no-repeat}
+    100% {background: url('./image/Map/RunUpRight/11.png') no-repeat}
+}
+
+@keyframes movedownleft {
+    0%{background: url('./image/Map/RunDownLeft/11.png') no-repeat}
+    18%{background: url('./image/Map/RunDownLeft/12.png') no-repeat}
+    36% {background: url('./image/Map/RunDownLeft/13.png') no-repeat}
+    50% {background: url('./image/Map/RunDownLeft/14.png') no-repeat}
+    66% {background: url('./image/Map/RunDownLeft/15.png') no-repeat}
+    84% {background: url('./image/Map/RunDownLeft/16.png') no-repeat}
+    100% {background: url('./image/Map/RunDownLeft/11.png') no-repeat}
+}
+
+@keyframes movedownright {
+    0%{background: url('./image/Map/RunDownRight/11.png') no-repeat}
+    18%{background: url('./image/Map/RunDownRight/12.png') no-repeat}
+    36% {background: url('./image/Map/RunDownRight/13.png') no-repeat}
+    50% {background: url('./image/Map/RunDownRight/14.png') no-repeat}
+    66% {background: url('./image/Map/RunDownRight/15.png') no-repeat}
+    84% {background: url('./image/Map/RunDownRight/16.png') no-repeat}
+    100% {background: url('./image/Map/RunDownRight/11.png') no-repeat}
+}
+
+@keyframes movedown {
+    0%{background: url('./image/Map/RunDown/11.png') no-repeat}
+    20%{background: url('./image/Map/RunDown/12.png') no-repeat}
+    40% {background: url('./image/Map/RunDown/13.png') no-repeat}
+    60% {background: url('./image/Map/RunDown/14.png') no-repeat}
+    /* 60% {background: url('./image/Map/RunDown/15.png') no-repeat} */
+    /* 64% {background: url('./image/Map/RunDown/16.png') no-repeat}
+    76% {background: url('./image/Map/RunDown/17.png') no-repeat}
+    88% {background: url('./image/Map/RunDown/18.png') no-repeat} */
+    100%{background: url('./image/Map/RunDown/14.png') no-repeat}
+}
+
+@keyframes moveup {
+    0%{background: url('./image/Map/RunUp/11.png') no-repeat}
+    20%{background: url('./image/Map/RunUp/12.png') no-repeat}
+    40% {background: url('./image/Map/RunUp/13.png') no-repeat}
+    60% {background: url('./image/Map/RunUp/14.png') no-repeat}
+    80% {background: url('./image/Map/RunUp/15.png') no-repeat}
+    100% {background: url('./image/Map/RunUp/11.png') no-repeat}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

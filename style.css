@@ -1,0 +1,152 @@
+#castle {
+    position: absolute;
+}
+#castle-window {
+    position: relative;
+}
+#ratusha {
+    position: absolute; top: 219px; left: 39px;
+    
+}
+#ratusha:hover {
+    background-image: url('image/Ratusha-n.png');
+    filter: contrast(1.5);
+}
+.zdania {
+    position: absolute;
+    
+    width: 154px;
+    height: 92px;
+    
+}
+.zdania-close {position: absolute; width: 54px; height: 43px;}
+/* Зоны нажатия чтобы купить дома */
+#ratusha-buy {top: 35px; left: 32px;}
+#citadel-buy {top: 35px; left: 227px;}
+#bratstvo-buy {top: 35px; left: 422px;}
+#kuznica-buy {top: 35px; left: 617px;}
+#rinok-buy {top: 138px; left: 128px;}
+#gildia-buy {top: 138px; left: 323px;}
+#verf-buy {top: 138px; left: 518px;}
+#konushni-buy {top: 243px; left: 226px;}
+#bastion-buy {top: 243px; left: 422px;}
+#fortpost-buy {top: 347px; left: 32px;}
+#strelkov-buy {top: 347px; left: 227px;}
+#grifonov-buy {top: 347px; left: 422px;}
+#baraki-buy {top: 347px; left: 617px;}
+#monastir-buy {top: 450px; left: 128px;}
+#arena-buy {top: 450px; left: 323px;}
+#portal-buy {top: 450px; left: 518px;}
+#close-ratusha-window {top: 554px; left: 745px;}
+
+/* Отображение самих домов внутри замка */
+#ratushaHouse {position: absolute; display: none;}
+#citadelHouse {position: absolute; display: none;}
+#bratstvoHouse {position: absolute; display: none;}
+#kuznicaHouse {position: absolute; top: 243px; left: 210px; display: none;}
+#rinokHouse {position: absolute; top: 260px; left: 407px; display: none;}
+#gildiaHouse {position: absolute; top: 162px; left: 718px; display: none;}
+#verfHouse {position: absolute; display: none;}
+#konushniHouse {position: absolute; display: none;}
+#bastionHouse {position: absolute; display: none;}
+#fortpostHouse {position: absolute; top: 100px; left: 180px; display: none;}
+#strelkovHouse {position: absolute; top: 125px; left: 380px; display: none;}
+#grifonovHouse {position: absolute; top: 55px; left: 77px; display: none;}
+#barakiHouse {position: absolute; top: 100px; left: 180px; display: none;}
+#monastirHouse {position: absolute; top: 210px; left: 560px;display: none;}
+#arenaHouse {position: absolute; top: 180px; left: 193px;display: none;}
+#portalHouse {position: absolute; display: none;}
+/* Подсветка при наведении */
+#ratushaHouse:hover{background-image: url(''); filter: contrast(1.5);}
+#citadelHouse:hover{background-image: url(''); filter: contrast(1.5);}
+#bratstvoHouse:hover{background-image: url(''); filter: contrast(1.5);}
+#kuznicaHouse:hover{background-image: url('image/Kuznica-n.png'); filter: contrast(1.5);}
+#rinokHouse:hover{background-image: url('image/Rinok-n.png'); filter: contrast(1.5);}
+#gildiaHouse:hover{background-image: url('image/Gildia1-n.png'); filter: contrast(1.5);}
+#verfHouse:hover{background-image: url(''); filter: contrast(1.5);}
+#konushniHouse:hover{background-image: url(''); filter: contrast(1.5);}
+#bastionHouse:hover{background-image: url(''); filter: contrast(1.5);}
+#fortpostHouse:hover{background-image: url(''); filter: contrast(1.5);}
+#strelkovHouse:hover{background-image: url('image/Strelkov-n.png'); filter: contrast(1.5);}
+#grifonovHouse:hover{background-image: url('image/Grifonov-n.png'); filter: contrast(1.5);}
+#barakiHouse:hover{background-image: url('image/Baraki-n.png'); filter: contrast(1.5);}
+#monastirHouse:hover{background-image: url('image/Monastir-n.png'); filter: contrast(1.5);}
+#arenaHouse:hover{background-image: url('image/Arena-n.png'); filter: contrast(1);}
+#portalHouse:hover{background-image: url(''); filter: contrast(1.5);}
+    
+
+#fort-window{position: absolute; display: none; opacity: 1;}
+#fort {position: absolute; top: 63px; left: 592px;}
+#fort:hover {background-image: url('image/Fort-n.png'); filter: contrast(1.5);}
+
+#ratusha-window {position: absolute; display: none; opacity: 1;}
+
+
+
+#kupit-monstrov table{
+    
+    position: absolute; top: 21px;
+    width: 800px;
+    height: 530px;
+    font-size: 72px;
+    
+}
+td{
+    padding: 0px;
+}
+
+
+
+@keyframes cash-back {
+    40% {
+        transform: rotateY(0deg);
+    }
+    50% {
+        transform: rotateY(90deg);
+    }
+    60% {
+        transform: rotateY(0deg);
+    }
+}
+
+
+
+/*Найм монстров в Форте*/
+#kop {position: absolute; top: 26px; left: 168px;}
+#luchnik {position: absolute; top: 26px; left: 563px;}
+#grifon {position: absolute; top: 160px; left: 168px;}
+#ricar {position: absolute; top: 160px; left: 563px;}
+#monah {position: absolute; top: 293px; left: 168px;}
+#chempion {position: absolute; top: 293px; left: 563px;}
+#angel {position: absolute; top: 426px; left: 364px;}
+
+/*Окно покупки монстров в Форте*/
+#naim {position: absolute; top: 16px; left: 142px; display: none;}
+.naimu {position: absolute; top: 70px; left: 192px; display: none;}
+#kupit-vse{position: absolute; top: 310px; left: 132px;}
+#kupit-aktivna{position: absolute; top: 310px; left: 210px;}
+#kupit-otmena{position: absolute; top: 310px; left: 288px;}
+#close-fort-window{position: absolute; top: 554px; left: 745px; width: 54px; height: 43px;}
+#nan{box-shadow: 8px 8px 0 0 rgba(0, 0, 0, 0.7);}
+
+#scrollbar{position: absolute; top: 277px; left: 175px;}
+#menshe{position: absolute; left: 0px;}
+#skolko{position: absolute; left: 17px;}
+#bolshe{position: absolute; left: 120px;}
+
+body {
+width: 800px;
+background-color: #888;
+margin: 20px auto;
+}
+
+/*Ресурсы*/
+#derevo,#rtut,#ruda,#sera,#cristal,#dragkamni,#zoloto{position:absolute;color:#fff;font-family:Arial,Helvetica,sans-serif; font-size: 14px;}
+#derevo{top: 577px; left: 35px;} #rtut{top: 577px; left: 120px;} #ruda{top: 577px; left: 205px;}
+#sera{top: 577px; left: 290px;} #cristal{top: 577px; left: 375px;} #dragkamni{top: 577px; left: 460px;} #zoloto{top: 577px; left: 545px;}
+#next-step{position: absolute; left: 810px; width: 30px; height: 50px; background-color: aqua}
+
+/*Выход на карту*/
+#to-the-map{position: absolute; left: 743px; top: 545px; width: 51px; height: 28px; background-color: aqua; opacity: 0.5;}
+
+
